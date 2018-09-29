@@ -1,0 +1,44 @@
+/*默认样式------------------------*/
+*{
+  margin:0;
+  padding: 0;
+}
+/*灰色元素-------------------------------*/
+body{
+  position: relative;
+  height: 100vh;
+}
+#wraper{
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -100px;
+  overflow: hidden;
+}
+#wraper::before{
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fc0;
+}
+#wraper::after{
+  position: absolute;
+  left: 350px;
+  top: 150px;
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fc0;
+}
