@@ -1,0 +1,273 @@
+/*格式化样式-----------------------*/
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+ul a{
+  text-decoration: none;
+}
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+html{
+  background-color: rgb(14,14,14);
+}
+body{
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: white;
+}
+/*头部样式--------------------------*/
+header{
+  border-bottom: 2px solid rgb(146,146,146);
+  margin-bottom: 40px;
+}
+header .header-logo{
+  float: left;
+  color: white;
+  font-size: 14px;
+  width: 120px;
+  padding-top: 40px;
+  background-color: rgb(213,93,92);
+}
+header .header-time{
+  float: right;
+  padding-top: 34px;
+  color: rgb(213,93,92);
+}
+/*关于部分样式--------------------------*/
+#about aside{
+  float: right;
+  width: 250px;
+  border-top: 2px solid rgb(205,128,146);
+  padding-top: 10px;
+}
+#about aside .bigLetter:first-letter{
+  font-size: 30px;
+}
+#about aside .bigLetter span{
+  border-bottom: 2px solid gray;
+}
+#about aside .content{
+  font-size: 14px;
+  color: rgb(103,103,103);
+}
+#about aside .big700{
+  font-size: 120px;
+  color: rgb(117,184,107);
+}
+#about aside .content3 .red3{
+  color: rgb(202,130,146);
+  font-size: 60px;
+}
+#about aside .content3 .wraper{
+  display: inline-block;
+  width: 100px;
+  color: #ccc;
+}
+#about aside .content3 .wraper .redcss{
+  font-size: 16px;
+  color: rgb(202,130,146);
+}
+#about article{
+  margin-right: 300px;
+}
+#about article .about-img{
+  position: relative;
+}
+#about article .about-img img{
+  width: 100%;
+  height: 300px;
+}
+#about article .about-img .shadow-left{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 98.8%;
+  background-color: green;
+  opacity: 0.3;
+}
+#about article .about-img .shadow-right{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: 98.8%;
+  background-color: red;
+  opacity: 0.3;
+}
+#about article .introduce{
+  margin-top: 50px;
+}
+#about article .introduce .what{
+  float: left;
+  width: 200px;
+  margin-right: 25px;
+}
+#about article .introduce .what p{
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgb(188,188,188);
+}
+#about article .introduce .what .whatPrecent{
+  margin-top: 10px;
+}
+#about article .introduce .what .whatPrecent li{
+  line-height: 25px;
+}
+#about article .introduce .what .whatPrecent .precent{
+  color: rgb(235,185,183);
+}
+#about article .introduce .what:last-of-type p{
+  line-height: 26px;
+}
+#about article .introduce .what .greenH2{
+  color: rgb(64,140,90);
+  border-bottom: 2px solid rgb(64,140,90);
+}
+#about article .introduce .what .yellowH2{
+  color: rgb(212,150,90);
+  border-bottom: 2px solid rgb(212,150,90);
+}
+
+#about article .introduce .what .redH2{
+  color: rgb(204,118,130);
+  border-bottom: 2px solid rgb(204,118,130);
+}
+/*前端技术领域部分样式--------------------------*/
+#technologe {
+  margin-top: 60px;
+  border-bottom: 1px solid gray;
+}
+#technologe .technologe-left{
+  float: left;
+  width: 49%;
+  margin-bottom: 40px;
+}
+#technologe .technologe-left h1{
+  color: rgb(17,70,108);
+  font-size: 35px;
+}
+#technologe .technologe-left h2{
+  border-bottom: 2px solid rgb(17,70,108);
+  color: rgb(17,70,108);
+  font-size: 35px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+#technologe .technologe-left img{
+  margin: 20px 0px 0px 20px;
+  float: right;
+}
+#technologe .technologe-left p{
+  color: rgb(188,188,188);
+}
+#technologe .technologe-left p:first-of-type:first-letter{
+  font-size: 80px;
+  color: rgb(245,227,40);
+  float: left;
+  margin-right: 10px;
+  margin-top: -15px;
+}
+#technologe .technologe-left .yellowLetter{
+  font-size: 70px;
+  color: rgb(245,227,40);
+  font-style: italic;
+  margin-right: 40px;
+}
+#technologe .technologe-right{
+  float: right;
+  width: 49%;
+}
+#technologe .technologe-right .technologe-top img{
+  width: 100%;
+}
+#technologe .technologe-right .technologe-top{
+  position: relative;
+}
+#technologe .technologe-right .technologe-top .shadow-img{
+  position: absolute;
+  padding: 10px 0;
+  bottom: 3px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+#technologe .technologe-right .technologe-top .shadow-img h2{
+  position: relative;
+  padding: 4px 0;
+  padding-left: 20px;
+  margin-left: 30px;
+  color: white;
+  font-size: 25px;
+  border-left: 3px solid rgb(144,177,106);
+}
+#technologe .technologe-right .technologe-top .shadow-img span{
+  color: rgb(144,177,106);
+  font-size: 14px;
+  font-style: italic;
+}
+#technologe .technologe-right .technologe-bottom{
+  background-color: rgb(238,238,214);
+  padding: 20px;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+#technologe .technologe-right .technologe-bottom li{
+  line-height: 40px;
+}
+#technologe .technologe-right .technologe-bottom .data-left{
+  float: left;
+  width: 60%;
+  padding: 40px 0;
+  background-color: rgb(214,93,93);
+  margin-left: -20px;
+}
+#technologe .technologe-right .technologe-bottom .data-left h2{
+  font-size: 100px;
+  display: inline-block;
+  color: white;
+}
+#technologe .technologe-right .technologe-bottom .data-left .detail{
+  width: 180px;
+  display: inline-block;
+  color: white;
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+#technologe .technologe-right .technologe-bottom .data-right{
+  float: right;
+  width: 40%;
+}
+#technologe .technologe-right .technologe-bottom .data-right p{
+  text-indent: 4em;
+  position: relative;
+}
+#technologe .technologe-right .technologe-bottom .data-right span:first-of-type{
+  position: absolute;
+    left: -127px;
+    top: -27px;
+    color: rgb(214,93,93);
+    font-size: 100px;
+}
+#technologe .technologe-right .technologe-bottom .data-right span:last-of-type{
+  position: absolute;
+    left: 65px;
+    top: 82px;
+    color: rgb(214,93,93);
+    font-size: 100px;
+}
+/*尾部部分样式--------------------------*/
+footer{
+  color: rgb(214,93,93);
+  font-size: 14px;
+  text-align: right;
+  padding-bottom: 40px;
+}
