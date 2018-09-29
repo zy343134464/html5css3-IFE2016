@@ -40,4 +40,4 @@ HTML 及 CSS 代码结构清晰、规范
 
 # 预览
 
-[任务2]()
+[任务2](https://zy343134464.github.io/html5css3-IFE2016/task2/task.html)
