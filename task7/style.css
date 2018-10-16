@@ -1,0 +1,479 @@
+/*初始化样式----------------*/
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/*导航条样式----------------*/
+header{
+  line-height: 60px;
+}
+.header-left{
+  float: left;
+  margin-left: 120px;
+  line-height: 56px;
+}
+.header-left img{
+  position: relative;
+  top: 10px;
+  width: 36px;
+  height: 36px;
+}
+.header-left span{
+  font-size: 26px;
+  margin-left: 28px;
+}
+nav{
+  float: left;
+  line-height: 28px;
+  position:relative;
+  left: 40%;
+  margin-left: -300px;
+}
+nav ul{
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+nav ul li{
+  float: left;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #534141;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+nav ul li a:hover{
+  border-bottom: 4px solid red;
+}
+nav ul li a.active{
+  color: red;
+  border-bottom: 4px solid red;
+}
+.header-right{
+  float: right;
+  line-height: 60px;
+}
+.header-right img{
+  position: relative;
+  top: 4px;
+}
+.header-right span{
+  font-size: 16px;
+  color: red;
+  padding-right: 120px;
+  padding-left: 40px;
+}
+/*banner样式----------------*/
+.banner{
+  position: relative;
+  height: 650px;
+  background: url(https://chenbujuan.github.io/IFE-FirstStage-Task7/images/pic01.jpg) no-repeat;
+  background-size: cover;
+}
+.banner .message{
+  position: absolute;
+  left: 80px;
+  top: 200px;
+}
+.banner .message p{
+  color: #fff;
+  font-size: 22px;
+}
+.banner .message p:first-child{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.banner .message p:last-of-type{
+  margin-bottom: 60px;
+}
+.banner .message span{
+  display: inline-block;
+  width:300px;
+  height: 60px;
+  background-color: #E53C3C;
+  font-size: 28px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+}
+/*introduce样式----------------*/
+.introduce{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.introduce ul li{
+  width: 20%;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  display: inline-block;
+}
+.introduce ul li img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.introduce ul li p{
+  border-right: 2px solid black;
+}
+/*recommend样式----------------*/
+.recommend{
+  text-align: center;
+  background-color: #EDEAEA;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.recommend img{
+  width: 90px;
+  height: 90px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.recommend p{
+  font-size: 50px;
+}
+/*search样式----------------*/
+.search{
+  position: relative;
+  height: 300px;
+  background: url(http://cherry037.github.io/task7/images/map.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 80px;
+}
+.search .message{
+  color: #fff;
+}
+.search .message .hr{
+  margin: 0 auto;
+  width: 30px;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.search .area .sel{
+  width: 225px;
+  line-height: 36px;
+  border: none;
+  margin-right: 22px;
+  padding-left: 12px;
+  margin-top: 40px;
+  background: url(https://cherry037.github.io/task7/images/red-arrow.png) no-repeat 210px;
+  background-color: #fff;
+}
+.search .area .sub{
+  width: 225px;
+  line-height: 36px;
+  border: none;
+  background-color: #BE4F48;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 30px;
+  padding-left: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+.search .area .sub:hover{
+  background-color: #E31212;
+}
+.search .area ul{
+  position: absolute;
+  background-color: #e3e3e4;
+  left: 706px;
+  font-size: 12px;
+  color: #4f5152;
+  border: 1px solid #be4e48;
+}
+.search .area ul li{
+  width: 236px;
+  line-height: 36px;
+}
+.search .area ul li:hover{
+  color: #fff;
+  background: url(https://cherry037.github.io/task7/images/swosh.png) no-repeat 10px #be4e48;
+}
+/*show样式----------------*/
+.show{
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.show .cell{
+  display: inline-block;
+  margin: 100px;
+}
+.show .cell .mes p{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #B3AFAC;
+}
+/*item样式----------------*/
+.items{
+  text-align: center; 
+}
+.items .items-top .left{
+  float: left;  
+  width: 64%;
+  background: url(http://cherry037.github.io/task7/images/middle-left.jpg) no-repeat;
+  background-size: cover;
+  height: 575px;
+}
+.items .items-top .left .mes p{
+  color: #fff;
+}
+.items .items-top .left .mes p:nth-child(1){
+  font-size: 50px;
+  padding-top: 120px;
+}
+.items .items-top .left .mes p:nth-child(2){
+  font-size: 160px;
+}
+.items .items-top .left .mes p:nth-child(3){
+  font-size: 26px;
+}
+.items .items-top .left .mes p:nth-child(4){
+  font-size: 26px;
+}
+.items .items-top .right{
+  position: relative;
+  float: left;  
+  width: 30%;
+  padding: 50px;
+  padding-top: 160px;
+}
+.items .items-top .right h3{
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.items .items-top .right h3 span{
+  color: #e74f4d;
+}
+.items .items-top .right p{
+  text-align: left;
+  line-height: 32px;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 46px;
+}
+.items .items-top .right button{
+  width: 106px;
+  height: 34px;
+  color: #e74f4d;
+  border: 1px solid #e74f4d;
+  background-color: #fff;
+}
+.items .items-top .right .point{
+  margin-top: 60px;
+}
+.items .items-top .right .point li{
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.items .items-top .right .point li:nth-child(1){
+  background-color: gray;
+}
+.items .items-top .right .triangle{
+  width: 0;
+  height: 0;
+  border-right: 26px solid #ffffff;
+    border-bottom: 40px solid transparent;
+    border-top: 40px solid transparent;
+    position: absolute;
+    top: 245px;
+    left: -26px;
+}
+.items .items-bottom .left{
+  width: 33%;
+  float: left;
+  background-color: #e74f4d;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.items .items-bottom .left p{
+  font-size: 20px;
+  color: #fff;
+}
+.items .items-bottom .left button{
+  background-color: #e74f4d;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 170px;
+    height: 42px;
+    font-size: 20px;
+}
+.items .items-bottom .left .hr{
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  margin: 30px auto;
+}
+.items .items-bottom .middle{
+  width: 33.3%;
+  float: left;
+  background-color: #fff;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.items .items-bottom .middle p{
+  font-size: 20px;
+}
+.items .items-bottom .middle button{
+  background-color: #fff;
+    color: #e74f4d;
+    border: 1px solid #e74f4d;
+    width: 170px;
+    height: 42px;
+    font-size: 20px;
+}
+.items .items-bottom .middle .hr{
+  width: 33.3px;
+  height: 2px;
+  background-color: gray;
+  margin: 30px auto;
+}
+.items .items-bottom .right{
+  position: relative;
+  width: 33.6%;
+  float: left;
+  height: 476px;
+  background: url(http://cherry037.github.io/task7/images/train.png) no-repeat;
+  background-size: cover;
+}
+.items .items-bottom .right .shadow{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.items .items-bottom .right .triangle{
+  width: 0;
+  height: 0;
+  border-left: 26px solid #ffffff;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    position: absolute;
+    top: 245px;
+    left: 0;
+}
+/*volunteer样式----------------*/
+.volunteer{
+  padding-top: 160px;
+  text-align: center;
+}
+.volunteer .hr{
+  margin: 10px auto;
+  width: 30px;
+  height: 2px;
+  background-color: #e74f4d;
+}
+.volunteer > p{
+  color: #aaa;
+  font-size: 12px;
+  margin-bottom: 100px;
+}
+.volunteer .submit{
+  text-align: left;
+  margin: 0 400px;
+  padding-bottom: 120px;
+}
+.volunteer .submit .protocol{
+  float: left;
+  width: 30%;
+}
+.volunteer .submit .protocol p{
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #9a9b9b;
+}
+.volunteer .submit .protocol span{
+  display: block;
+  text-align: right;
+}
+.volunteer .submit .form{
+  text-align: left;
+  float: left;
+  width: 64%;
+  margin-left: 60px;
+}
+.volunteer .submit .form input{
+  width: 40%; 
+  margin: 0 20px;
+  background-color: #ededee;
+  height: 40px;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.volunteer .submit .form textarea{
+  width: 87.6%;
+  margin-left: 20px;
+  background-color: #ededee;
+  border: none;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.volunteer .submit .form input:last-child{
+  margin-top: 10px;
+  width: 89%;
+  font-size: 16px;
+}
+/*footer样式----------------*/
+footer .contact{
+  height: 380px;
+  background-color: #33363F;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+footer .contact input:nth-of-type(1){
+  background-color: #fff;
+  line-height: 40px;
+  width: 26%;
+  padding-left: 10px;
+}
+footer .contact input:nth-of-type(2){
+  background-color: #75757F;
+  width: 6%;
+  padding-left: 10px;
+  color: #fff;
+  border: none;
+  line-height: 44px;
+}
+footer .contact p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+footer .contact .icon{
+  margin-top: 40px;
+  font-size: 30px;
+}
+footer .contact .icon i{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer .bottom{
+  font-size: 14px;
+  color: #fff;
+  background-color: #30303A;
+  line-height: 80px;
+  padding-left: 80px;
+}
