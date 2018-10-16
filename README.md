@@ -11,3 +11,5 @@
 [任务5](https://zy343134464.github.io/html5css3-IFE2016/task5/task.html)
 
 [任务6](https://zy343134464.github.io/html5css3-IFE2016/task6/task.html)
+
+[任务7](https://zy343134464.github.io/html5css3-IFE2016/task7/task.html)
